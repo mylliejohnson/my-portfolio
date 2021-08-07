@@ -1,29 +1,22 @@
-import React from 'react';
+import React from "react";
 
 function Projects(props) {
 
-    let divStyle = {
-        height: '100vh',
-        backgroundColor: 'pink',
-    }
-
-    let projStyles = {
-        lineHeight: '.25',
-        textAlign: 'center',
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-        position: 'relative',
-        top: '40%'
-    }
-
-    return (
-        <div style={divStyle} className="snap">
-            <div style={projStyles}>
-                these are my projects
-            </div>
+  return (
+    <div className="Projects snap">
+      <div className="proj-styles">
+        <div className="project project1">
+            <h2>PLANT PARTY</h2>
         </div>
-    );
+        <div className="project project2">
+        <h2>IRONMAKEUP</h2>
+        </div>
+        <div className="project project3">
+        <h2>BUBBLE POP</h2>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default Projects;

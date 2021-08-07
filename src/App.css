@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Amethysta&family=Coda&display=swap');
 
+/* all styles */
 
-
-h1 {
+h1, h2 {
   font-family: 'Amethysta', serif;
 }
 
 body {
   font-family: 'Coda', sans-serif;
   margin: 0;
-  
 }
 
 .scroll-snap{
@@ -23,5 +22,105 @@ body {
 
 nav {
   position: fixed;
+}
 
+/* about me */
+
+.Home{
+  height: 100vh;
+  color: #45818e
+}
+
+.name{
+  line-height: .25;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 35%;
+  border: 5px solid black;
+  width: 20em;
+}
+
+/* projects */
+
+.Projects{
+  height: 100vh;
+  background: #45818e;
+}
+
+.project{
+  background-color: #eee;
+  width: 30%;
+  height: 75vh;
+  /* flex on the text */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project h2{
+  background: #45818e;
+  padding: 5px;
+  color: #eee
+}
+
+.proj-styles{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  top: 15%;
+}
+
+.project1 {
+  background-image: url('https://images.unsplash.com/photo-1525498128493-380d1990a112?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHBsYW50c3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.project2 {
+  background-image: url('https://images.unsplash.com/photo-1596704017254-9b121068fb31?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bWFrZSUyMHVwfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.project3 {
+  background-image: url('https://images.unsplash.com/photo-1612855190135-bdbacda2a2b5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YnViYmxlc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+
+/* contact */
+
+input{
+  display: block;
+  margin: 5px;
+}
+
+.Contact{
+  background: #76a5af;
+  height: 100vh;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 800px){
+  .proj-styles{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project{
+    width: 90%;
+    height: 25vh;
+  }
 }
