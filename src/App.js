@@ -1,11 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import {Button, Navbar, Nav} from 'react-bootstrap'
-import {Link, Switch, Route} from 'react-router-dom'
+import logo from "./logo.svg";
+import "./App.css";
+import { Button, Navbar, Nav } from "react-bootstrap";
+import { Link, Switch, Route } from "react-router-dom";
 
-import Home from './components/Home'
-import Projects from './components/Projects';
-import Contact from './components/Contact'
+import Home from "./components/Home";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -18,9 +18,9 @@ function App() {
         </ul>
       </nav>
 
-    <Home/>
-    <Projects/>
-    <Contact/>
+      <Home />
+      <Projects />
+      <Contact />
     </div>
   );
 }

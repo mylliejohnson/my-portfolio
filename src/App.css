@@ -28,10 +28,20 @@ nav {
 
 .Home{
   height: 100vh;
-  color: #45818e
+  color: #45818e;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .name{
+  line-height: .75;
+  text-align: center;
+  border: 5px solid black;
+  width: 20em;
+}
+
+/* .name{
   line-height: .25;
   margin: auto;
   text-align: center;
@@ -41,15 +51,23 @@ nav {
   justify-content: center;
   position: relative;
   top: 35%;
-  border: 5px solid black;
-  width: 20em;
-}
+} */
 
+.links{
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
 /* projects */
 
 .Projects{
   height: 100vh;
   background: #45818e;
+}
+
+.Projects h2{
+  text-align: center;
+  padding: 10px;
 }
 
 .project{
@@ -65,7 +83,8 @@ nav {
 .project h2{
   background: #45818e;
   padding: 5px;
-  color: #eee
+  color: #eee;
+  margin: 0;
 }
 
 .proj-styles{
@@ -75,7 +94,7 @@ nav {
   justify-content: space-evenly;
   align-items: center;
   position: relative;
-  top: 15%;
+  top: 20%;
 }
 
 .project1 {
@@ -96,20 +115,40 @@ nav {
   background-repeat: no-repeat;
 }
 
-
-
-
 /* contact */
-
-input{
-  display: block;
-  margin: 5px;
-}
 
 .Contact{
   background: #76a5af;
   height: 100vh;
 }
+
+.Contact h2{
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+form{
+  background: pink;
+  width: 30%;
+}
+
+input{
+  display: block;
+  margin: 5px auto;
+  width: 80%;
+}
+
+.form{
+  border: 5px solid black;
+  margin: auto;
+  position: relative;
+  top: 30%;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+
 
 /* media queries */
 
