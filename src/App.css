@@ -11,9 +11,10 @@ body {
   margin: 0;
 }
 
-.scroll-snap{
-  scroll-snap-type: y mandatory;
+.App{
+  scroll-snap-type: y proximity;
   overflow-y: scroll;
+  height: 100%;
 }
 
 .snap {
@@ -30,8 +31,23 @@ nav {
   height: 100vh;
   color: #45818e;
   display: flex;
-  justify-content: space-around;
   align-items: center;
+}
+
+.links {
+  width: 30%;
+  padding-right: 2em;;
+  line-height: 3
+}
+
+.links a {
+  color: black;
+  text-decoration: none;
+}
+
+.links a:hover{
+  cursor: pointer;
+  color: #45818e;
 }
 
 .name{
@@ -39,6 +55,13 @@ nav {
   text-align: center;
   border: 5px solid black;
   width: 20em;
+}
+
+.about-me{
+  width: 30%;
+  padding-left:2em;
+  line-height: 1.75;
+  color: black;
 }
 
 /* .name{
@@ -129,30 +152,90 @@ nav {
 }
 
 form{
-  background: pink;
-  width: 30%;
+  background: #eee;
+  border: 5px solid black;
+  margin: auto;
+  width: 25%;
+  position: relative;
+  top: 6em;
+  padding: 30px;
+}
+
+input, textarea{
+  display: block;
+  background: none;
+  outline: none;
+  margin: 20px auto;
+  width: 80%;
+  font-family: 'Coda', sans-serif;
+  border: 0;
+  border-bottom: 3px solid #45818e;
 }
 
 input{
-  display: block;
-  margin: 5px auto;
-  width: 80%;
+  height: 2em;
 }
 
-.form{
-  border: 5px solid black;
+button{
+  display: block;
   margin: auto;
-  position: relative;
-  top: 30%;
-  width: 30%;
-  display: flex;
-  justify-content: center;
+  font-family: inherit;
+  padding: 5px;
+  background-color: #eee;
+  border: none;
+}
+
+button:hover{
+  background-color: #76a5af;
+  color: #eee;
 }
 
 
 /* media queries */
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 600px){
+  
+  nav{
+    width: 100%;
+    z-index: 100;
+  }
+  
+  nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+  }
+
+  ul li {
+    list-style: none;
+    
+  }
+
+  .Home {
+    flex-direction: column;
+    position: relative;
+    top: 8em;
+  }
+
+  .links{
+    display: inline-block;
+    padding-right: 0;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 1em;
+  }
+
+  .about-me{
+    width: 95%;
+    text-align: center;
+    padding-left: 0;
+    margin-top: 1em;
+  }
+
   .proj-styles{
     display: flex;
     flex-direction: column;
@@ -161,5 +244,9 @@ input{
   .project{
     width: 90%;
     height: 25vh;
+  }
+
+  form{
+    width: 65%;
   }
 }

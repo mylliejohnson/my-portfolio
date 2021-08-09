@@ -9,18 +9,17 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div className="App" className="scrollSnap">
+    <div className="App">
       <nav>
         <ul>
-          <li>Me | Resume</li>
+          <li>About</li>
           <li>Projects</li>
           <li>Contact</li>
         </ul>
       </nav>
-
-      <Home />
-      <Projects />
-      <Contact />
+        <Home />
+        <Projects />
+        <Contact />
     </div>
   );
 }
