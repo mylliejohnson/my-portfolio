@@ -3,7 +3,7 @@ import React from "react";
 function Projects(props) {
 
   return (
-    <div className="Projects snap">
+    <div className="Projects snap" id="projects">
       <div className="proj-styles">
         <div className="project project1">
             <h2>PLANT PARTY</h2>

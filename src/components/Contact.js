@@ -1,10 +1,8 @@
 import React from "react";
-import emailjs from "emailjs-com";
-// import {Linking} from 'react-native'
 
 function Contact(props) {
   return (
-    <div className="Contact snap">
+    <div className="Contact snap" id="contact">
       <h2>I'd love to hear from you!</h2>
 
       <div>
@@ -30,7 +28,7 @@ function Contact(props) {
             placeholder="* Leave me a message!"
             required
           />
-          <button type="submit" title="support@example.com">
+          <button type="submit">
             Submit
           </button>
         </form>

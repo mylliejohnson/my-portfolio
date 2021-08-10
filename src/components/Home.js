@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 
 function Home(props) {
   return (
-    <div className="Home snap">
+    <div className="Home snap" id="home">
       <div className="links">
         <a href="https://github.com/mylliejohnson" target="_blank">
           GitHub

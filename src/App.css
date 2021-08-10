@@ -23,6 +23,26 @@ body {
 
 nav {
   position: fixed;
+  text-align: right;
+  z-index: 100;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  cursor: pointer;
+  color: #45818e;
+}
+
+a:active{
+  color: red;
 }
 
 /* about me */
@@ -32,22 +52,16 @@ nav {
   color: #45818e;
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
 }
 
 .links {
   width: 30%;
   padding-right: 2em;;
-  line-height: 3
-}
-
-.links a {
-  color: black;
-  text-decoration: none;
-}
-
-.links a:hover{
-  cursor: pointer;
-  color: #45818e;
+  line-height: 3;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
 }
 
 .name{
@@ -64,23 +78,6 @@ nav {
   color: black;
 }
 
-/* .name{
-  line-height: .25;
-  margin: auto;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  top: 35%;
-} */
-
-.links{
-  display: flex;
-  flex-direction: column;
-  text-align: right;
-}
 /* projects */
 
 .Projects{
@@ -197,7 +194,6 @@ button:hover{
   
   nav{
     width: 100%;
-    z-index: 100;
   }
   
   nav ul{
