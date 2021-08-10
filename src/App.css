@@ -41,10 +41,6 @@ a:hover{
   color: #45818e;
 }
 
-a:active{
-  color: red;
-}
-
 /* about me */
 
 .Home{
@@ -105,6 +101,10 @@ a:active{
   padding: 5px;
   color: #eee;
   margin: 0;
+}
+
+.project h2 a {
+  color: #eee
 }
 
 .proj-styles{
