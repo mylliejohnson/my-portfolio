@@ -25,14 +25,10 @@ function Home(props) {
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id
           libero elementum, interdum tellus a, lobortis nunc. Praesent tristique
-          viverra eros eu blandit.
+          viverra eros eu.
           <br />
           Donec eget sapien vulputate, scelerisque arcu ac, tincidunt purus.
           Praesent tristique viverra eros blandit.
-          <br />
-          Donec eget sapien vulputate, scelerisque arcu ac, tincidunt
-          purus.Praesent tristique viverra eros eu blandit. Donec eget sapien
-          vulputate, scelerisque arcu ac, tincidunt purus.
         </p>
       </div>
     </div>

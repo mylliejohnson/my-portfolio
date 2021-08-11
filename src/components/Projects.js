@@ -7,14 +7,14 @@ function Projects(props) {
         <div className="project project1">
           <h2>
             <a href="https://plant-party.netlify.com" target="_blank">
-              PLANT PARTY
+              plant party.
             </a>
           </h2>
         </div>
         <div className="project project2">
           <h2>
             <a href="https://myllies-api-project.netlify.com" target="_blank">
-              IRONMAKEUP
+              ironmakeup.
             </a>
           </h2>
         </div>
@@ -24,7 +24,7 @@ function Projects(props) {
               href="https://mylliejohnson.github.io/my-bubble-game-js/index.html"
               target="_blank"
             >
-              BUBBLE POP
+              bubble pop.
             </a>
           </h2>
         </div>
