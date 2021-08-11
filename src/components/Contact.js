@@ -28,9 +28,7 @@ function Contact(props) {
             placeholder="* Leave me a message!"
             required
           />
-          <button type="submit">
-            Submit
-          </button>
+          <button type="submit">Submit</button>
         </form>
       </div>
     </div>

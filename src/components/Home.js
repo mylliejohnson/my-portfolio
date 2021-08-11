@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 
 function Home(props) {
   return (
@@ -22,16 +22,18 @@ function Home(props) {
         <h3>WEB DEVELOPER</h3>
       </div>
       <div className="about-me">
-       <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id
-        libero elementum, interdum tellus a, lobortis nunc. Praesent tristique
-        viverra eros eu blandit.
-        <br />
-        Donec eget sapien vulputate, scelerisque arcu ac, tincidunt purus.
-        Praesent tristique viverra eros blandit.
-        <br />
-        Donec eget sapien vulputate, scelerisque arcu ac, tincidunt
-        purus.Praesent tristique viverra eros eu blandit. Donec eget sapien
-        vulputate, scelerisque arcu ac, tincidunt purus.</p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id
+          libero elementum, interdum tellus a, lobortis nunc. Praesent tristique
+          viverra eros eu blandit.
+          <br />
+          Donec eget sapien vulputate, scelerisque arcu ac, tincidunt purus.
+          Praesent tristique viverra eros blandit.
+          <br />
+          Donec eget sapien vulputate, scelerisque arcu ac, tincidunt
+          purus.Praesent tristique viverra eros eu blandit. Donec eget sapien
+          vulputate, scelerisque arcu ac, tincidunt purus.
+        </p>
       </div>
     </div>
   );

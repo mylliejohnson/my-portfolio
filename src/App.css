@@ -1,17 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Amethysta&family=Coda&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Amethysta&family=Coda&display=swap");
 
 /* all styles */
 
-h1, h2 {
-  font-family: 'Amethysta', serif;
+h1,
+h2 {
+  font-family: "Amethysta", serif;
 }
 
 body {
-  font-family: 'Coda', sans-serif;
+  font-family: "Coda", sans-serif;
   margin: 0;
 }
 
-.App{
+.App {
   scroll-snap-type: y proximity;
   overflow-y: scroll;
   height: 100%;
@@ -36,14 +37,14 @@ a {
   text-decoration: none;
 }
 
-a:hover{
+a:hover {
   cursor: pointer;
   color: #45818e;
 }
 
 /* about me */
 
-.Home{
+.Home {
   height: 100vh;
   color: #45818e;
   display: flex;
@@ -53,40 +54,40 @@ a:hover{
 
 .links {
   width: 30%;
-  padding-right: 2em;;
+  padding-right: 2em;
   line-height: 3;
   display: flex;
   flex-direction: column;
   text-align: right;
 }
 
-.name{
-  line-height: .75;
+.name {
+  line-height: 0.75;
   text-align: center;
   border: 5px solid black;
   width: 20em;
 }
 
-.about-me{
+.about-me {
   width: 30%;
-  padding-left:2em;
+  padding-left: 2em;
   line-height: 1.75;
   color: black;
 }
 
 /* projects */
 
-.Projects{
+.Projects {
   height: 100vh;
   background: #45818e;
 }
 
-.Projects h2{
+.Projects h2 {
   text-align: center;
   padding: 10px;
 }
 
-.project{
+.project {
   background-color: #eee;
   width: 30%;
   height: 75vh;
@@ -96,7 +97,7 @@ a:hover{
   align-items: center;
 }
 
-.project h2{
+.project h2 {
   background: #45818e;
   padding: 5px;
   color: #eee;
@@ -104,10 +105,10 @@ a:hover{
 }
 
 .project h2 a {
-  color: #eee
+  color: #eee;
 }
 
-.proj-styles{
+.proj-styles {
   text-align: center;
   display: flex;
   flex-direction: row;
@@ -118,37 +119,37 @@ a:hover{
 }
 
 .project1 {
-  background-image: url('https://images.unsplash.com/photo-1525498128493-380d1990a112?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHBsYW50c3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
+  background-image: url("https://images.unsplash.com/photo-1525498128493-380d1990a112?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHBsYW50c3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .project2 {
-  background-image: url('https://images.unsplash.com/photo-1596704017254-9b121068fb31?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bWFrZSUyMHVwfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
+  background-image: url("https://images.unsplash.com/photo-1596704017254-9b121068fb31?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bWFrZSUyMHVwfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .project3 {
-  background-image: url('https://images.unsplash.com/photo-1612855190135-bdbacda2a2b5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YnViYmxlc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
+  background-image: url("https://images.unsplash.com/photo-1612855190135-bdbacda2a2b5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YnViYmxlc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 /* contact */
 
-.Contact{
+.Contact {
   background: #76a5af;
   height: 100vh;
 }
 
-.Contact h2{
+.Contact h2 {
   text-align: center;
   padding: 20px;
   margin: 0;
 }
 
-form{
+form {
   background: #eee;
   border: 5px solid black;
   margin: auto;
@@ -158,22 +159,23 @@ form{
   padding: 30px;
 }
 
-input, textarea{
+input,
+textarea {
   display: block;
   background: none;
   outline: none;
   margin: 20px auto;
   width: 80%;
-  font-family: 'Coda', sans-serif;
+  font-family: "Coda", sans-serif;
   border: 0;
   border-bottom: 3px solid #45818e;
 }
 
-input{
+input {
   height: 2em;
 }
 
-button{
+button {
   display: block;
   margin: auto;
   font-family: inherit;
@@ -182,21 +184,19 @@ button{
   border: none;
 }
 
-button:hover{
+button:hover {
   background-color: #76a5af;
   color: #eee;
 }
 
-
 /* media queries */
 
-@media only screen and (max-width: 600px){
-  
-  nav{
+@media only screen and (max-width: 600px) {
+  nav {
     width: 100%;
   }
-  
-  nav ul{
+
+  nav ul {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -205,16 +205,15 @@ button:hover{
 
   ul li {
     list-style: none;
-    
   }
 
   .Home {
     flex-direction: column;
     position: relative;
-    top: 8em;
+    justify-content: center;
   }
 
-  .links{
+  .links {
     display: inline-block;
     padding-right: 0;
     text-align: center;
@@ -223,26 +222,30 @@ button:hover{
     flex-direction: row;
     justify-content: space-evenly;
     margin-bottom: 1em;
+    order: 1;
   }
 
-  .about-me{
+  .about-me {
     width: 95%;
     text-align: center;
     padding-left: 0;
-    margin-top: 1em;
   }
 
-  .proj-styles{
+  .about-me p {
+    padding:0;
+  }
+
+  .proj-styles {
     display: flex;
     flex-direction: column;
   }
 
-  .project{
+  .project {
     width: 90%;
     height: 25vh;
   }
 
-  form{
+  form {
     width: 65%;
   }
 }
