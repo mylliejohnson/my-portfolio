@@ -210,7 +210,7 @@ button:hover {
   .Home {
     flex-direction: column;
     position: relative;
-    justify-content: center;
+    justify-content:center;
   }
 
   .links {
@@ -251,5 +251,11 @@ button:hover {
 
   form {
     width: 65%;
+    top: 4em;
   }
+
+  .Contact h2 {
+    padding-top: 2.5em;
+  }
+
 }
