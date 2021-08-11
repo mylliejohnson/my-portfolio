@@ -221,7 +221,10 @@ button:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-bottom: 1em;
+    order: 2;
+  }
+
+  .name{
     order: 1;
   }
 
@@ -229,10 +232,11 @@ button:hover {
     width: 95%;
     text-align: center;
     padding-left: 0;
+    order:3;
   }
 
   .about-me p {
-    padding:0;
+    margin:0;
   }
 
   .proj-styles {
