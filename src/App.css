@@ -170,6 +170,8 @@ a:hover {
   background-repeat: no-repeat;
 }
 
+
+/* get description div inside div */
 .hide {
   display: none;
 }

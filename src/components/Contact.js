@@ -1,5 +1,7 @@
 import React from "react";
 
+// LOOK INTO WOO FORMS FOR EMAIL //
+
 function Contact(props) {
   return (
     <div className="Contact snap" id="contact">
