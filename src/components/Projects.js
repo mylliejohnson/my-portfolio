@@ -10,7 +10,11 @@ function Projects(props) {
               plant party.
             </a>
           </h2>
+         
         </div>
+        <div className="hide">
+           <p> this is a full-stack app created with react and the MERN stack.</p>
+          </div>
         <div className="project project2">
           <h2>
             <a href="https://myllies-api-project.netlify.com" target="_blank">
@@ -18,6 +22,9 @@ function Projects(props) {
             </a>
           </h2>
         </div>
+        <div className="hide">
+           <p> this is an app created with react and rest APIs.</p>
+          </div>
         <div className="project project3">
           <h2>
             <a
@@ -27,7 +34,11 @@ function Projects(props) {
               bubble pop.
             </a>
           </h2>
+          
         </div>
+        <div className="hide">
+            <p style={{color: 'white'}}>this is a game created with canvas.</p>
+          </div>
       </div>
     </div>
   );

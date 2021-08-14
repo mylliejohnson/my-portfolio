@@ -170,6 +170,14 @@ a:hover {
   background-repeat: no-repeat;
 }
 
+.hide {
+  display: none;
+}
+
+.project:hover + .hide{
+  display: block;
+}
+
 /* contact */
 
 .Contact {
